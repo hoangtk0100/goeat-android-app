@@ -10,11 +10,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_width="256dp"
+        android:layout_height="137dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="198dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="145dp"
         app:srcCompat="@drawable/goeat" />
 
     <TextView
@@ -23,16 +24,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:textSize="16dp"
         android:text="@string/slogan"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtTenCongTy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="17dp"
         android:text="@string/team"
         android:textColor="@android:color/background_light" />
 
@@ -40,8 +43,10 @@
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/txtTenCongTy"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="30dp"
         android:orientation="horizontal">
 
         <ProgressBar
@@ -61,4 +66,4 @@
             android:textColor="@android:color/background_light"
             tools:text="@string/loading" />
     </LinearLayout>
-</RelativeLayout>
+</RelativeLayout >

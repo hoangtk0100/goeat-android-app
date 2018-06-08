@@ -16,17 +16,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_slashscreen);
+        setContentView(R.layout.layout_login);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
 
-       /* btnAdd = findViewById(R.id.btnAdd);
+        btnAdd = findViewById(R.id.btnDangNhapFacebook);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 databaseReference.child("users").child("user1").setValue("hoang1");
             }
-        });*/
+        });
     }
 }

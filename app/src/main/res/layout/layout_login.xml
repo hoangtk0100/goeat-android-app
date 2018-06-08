@@ -24,7 +24,8 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/foodytext" />
+            android:baselineAligned="false"
+            app:srcCompat="@drawable/goeat" />
 
         <EditText
             android:id="@+id/edEmailDN"
@@ -38,7 +39,8 @@
             android:hint="@string/email"
             android:inputType="textPersonName"
             android:textColor="@color/colorAccent"
-            android:textColorHint="@color/colorAccent" />
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edPasswordDN"
@@ -52,7 +54,8 @@
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textColor="@color/colorAccent"
-            android:textColorHint="@color/colorAccent" />
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnDangNhap"
@@ -68,7 +71,8 @@
             android:paddingRight="60dp"
             android:text="@string/login"
             android:textAllCaps="false"
-            android:textColor="@color/colorAccent" />
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,7 +93,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:text="@string/or"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -150,9 +155,9 @@
                 android:id="@+id/txtDangKyMoi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end"
                 android:layout_weight="1"
                 android:text="@string/signup"
-                android:layout_gravity="end"
                 android:textColor="@color/colorAccent" />
         </LinearLayout>
     </LinearLayout>
