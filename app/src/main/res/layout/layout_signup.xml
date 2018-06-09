@@ -63,7 +63,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/edNhapLaiPasswordDK"
+                android:id="@+id/edRePasswordDK"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -78,7 +78,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnDangKy"
+                android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
